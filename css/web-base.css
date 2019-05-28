@@ -1,0 +1,138 @@
+body
+{
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.5);
+    background: whitesmoke;
+}
+
+.nav
+{
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    z-index: 1001;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#title
+{
+    text-align: center;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+h1 h2 h3
+{
+    color: #000;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    line-height: 1.1;
+}
+
+ul ol
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#navlist ul
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#navlist li
+{
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+#navlist a
+{
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    padding: 10px 10px;
+    letter-spacing: .2em;
+    font-family: "Roboto", Arial, sans-serif;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.now
+{
+    color: black;
+    border-bottom: darkolivegreen 2px;
+}
+
+
+#navfooter
+{
+    margin-left: -30px;
+    position: absolute;
+    bottom: 40px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 20px;
+}
+
+.but
+{
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding: 8px 20px !important;
+}
+#allpage
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main
+{
+        width: 80%;
+        float: right;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+}
+
